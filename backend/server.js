@@ -17,11 +17,11 @@ const dbOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 const DB_URL = process.env.DB_URL;
 
 if (DB_URL) {
-    mongoose.connect(DB_URL, dbOptions)
-      .then(() => console.log(`Connected to MongoDB from ${APP_NAME}`))
-      .catch(err => console.error('MongoDB connection error:', err));
+  mongoose.connect(DB_URL, dbOptions)
+    .then(() => console.log(`Connected to MongoDB from ${APP_NAME}`))
+    .catch(err => console.error('MongoDB connection error:', err));
 } else {
-    console.warn('DB_URL environment variable is missing.');
+  console.warn('DB_URL environment variable is missing.');
 }
 
 // 1. Heatlh check
@@ -33,9 +33,9 @@ app.get('/health', (req, res) => {
 app.get('/api/about', (req, res) => {
   // Placeholder info, you can edit this later
   res.json({
-    fullName: "Nguyen Van A",
-    studentId: "123456",
-    class: "22C1"
+    fullName: "Nguyen Phuoc Tam",
+    studentId: "2251220110",
+    class: "22CT1"
   });
 });
 
