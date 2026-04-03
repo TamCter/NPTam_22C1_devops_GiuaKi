@@ -1,16 +1,7 @@
-# Báo Cáo Chữa Bài Giữa Kì DevOps
-
-## Phần A: Thông tin chung
-
-### 1. Thông tin sinh viên
-- **Họ và tên:** Nguyen Van A (Sửa lại tên thật của bạn)
-- **Mã số sinh viên:** 123456 (Sửa lại MSSV)
-- **Lớp:** 22C1 (Sửa lại lớp)
-
-### 2. Giới thiệu ứng dụng
+### 1. Giới thiệu ứng dụng
 Dự án là một hệ thống Web Fullstack đơn giản bao gồm Backend (Node.js/Express) và Frontend (React/Vite) kết nối tới cơ sở dữ liệu MongoDB. Mọi dịch vụ được thiết lập chạy trong Docker container riêng biệt với sự điều phối của Docker Compose.
 
-### 3. Tính năng
+### 2. Tính năng
 * **Giao diện Frontend (React):**
    * Cho phép hiển thị danh sách các món đồ / công việc (Tasks).
    * Form điền thông tin và tương tác thêm mới dữ liệu gửi về Backend.
@@ -23,7 +14,7 @@ Dự án là một hệ thống Web Fullstack đơn giản bao gồm Backend (No
 * **Database (MongoDB):**
    * Lưu trữ dữ liệu thực (persist data với Docker Volume).
 
-### 4. Use cases
+### 3. Use cases
 - Người dùng truy cập trang chủ để theo dõi và xem danh sách các Item đã thêm.
 - Người dùng điền Form thêm mới Item.
 - Người dùng lấy thông tin cá nhân hiển thị qua giao diện (Route `/about`).
