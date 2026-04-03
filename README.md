@@ -22,34 +22,6 @@ Dự án là một hệ thống Web Fullstack đơn giản bao gồm Backend (No
 
 ---
 
-## Phần B: Minh chứng
-
-**1. Repository & Image Container**
-- **Link GitHub:** `[Chèn link Github Repo của bạn vào đây]`
-- **Link Docker Hub:** `[Chèn link Dockerhub image vừa push của bạn vào đây]`
-
-**2. Hình ảnh minh chứng**
-
-> Hướng dẫn: Bạn tự chụp màn hình lại môi trường của bạn và thay thế các placeholder này nhé.
-
-*   Ảnh lịch sử commit có tối thiểu 5 commit: `[Chèn ảnh lịch sử commit trên VSCode/Github]`
-*   Ảnh Github chứng minh có 3 branch (main, develop, feature): `[Chèn ảnh tab nhánh trên Github]`
-*   Ảnh Docker running (Containers up): `[Chèn ảnh Docker Desktop running]`
-*   Ảnh trang `/about` hiển thị đúng thông tin: `[Chèn ảnh duyệt web]`
-*   Ảnh kết quả gọi endpoint `/health`: `[Chèn ảnh Postman hoặc Browser gõ localhost:5000/health]`
-
-**3. Checklist tự kiểm tra đã hoàn thành:**
-- [x] Có commit history.
-- [x] Có BE + FE + DB.
-- [x] Có endpoint /about.
-- [x] Có endpoint /health.
-- [x] Có .env.
-- [x] Có Dockerfile.
-- [x] Có docker-compose.yml.
-- [ ] Push Docker Hub (Bạn cần tự gõ dòng lệnh push theo hướng dẫn ở phần sau).
-
-## Hướng Dẫn Nộp Bài (Push lên GitHub, Docker Hub)
-
 ### B1: Push source code này lên GitHub của bạn
 1. Lên Website GitHub tạo một repo mới trống (ví dụ: `midterm-devops`).
 2. Mở terminal, chạy lệnh sau:
